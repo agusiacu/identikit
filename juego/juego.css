@@ -1,108 +1,127 @@
-#ascii-ghostface{
-    margin-right: 32px; color: white;
+#ascii-ghostface {
+    margin-right: 2em; 
+    color: white;
 }
 
-#bodyJuego{
+#bodyJuego {
     background-color: black; 
     margin: 0%;
 }
 
-#bodyprueba{
+#bodyprueba {
     background-color: black; 
     margin: 0%;
-    margin-top: -10px;
+    margin-top: -0.625em;
     background-image: url(https://wallpaperswide.com/download/windows_xp_original-wallpaper-3554x1999.jpg);
     background-size: cover; 
 }
 
-#tablaDeGif{
-    margin-left: 123px; border-color: white; border-width: 2px; border-style: solid;
+#tablaDeGif {
+    margin-left: 7.7em; 
+    border-color: white; 
+    border-width: 0.125em; 
+    border-style: solid;
 }
 
-.asciiart{
-    color: white
+.asciiart {
+    color: white;
 }
 
-.textocmd{
+.textocmd {
     font-family: 'Courier New', Courier, monospace, sans-serif;
     color: white;
 }
 
-.mensajeemergente{
+.mensajeemergente {
     background-color: black; 
     border-color: red; 
-    border-width: 2px; 
+    border-width: 0.125em; 
     border-style: solid; 
     display: inline-block;
-    width: 600px; 
+    width: 37.5em; 
 }
 
-.mensajeemergente2{
+.mensajeemergente2 {
     background-color: black; 
     border-color: rgb(0, 255, 38); 
-    border-width: 2px; 
+    border-width: 0.125em; 
     border-style: solid; 
     display: inline-block;
-    width: 301px; 
+    width: 18.8em; 
 }
 
-
-
-.hazsidodectectado{
-position: fixed;
+.hazsidodectectado {
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: #181818;
-  border: 3px solid #ff2222;
-  padding: 32px 48px;
-  box-shadow: 0 0 24px #000a;
+  border: 0.1875em solid #ff2222;
+  padding: 2em 3em;
+  box-shadow: 0 0 1.5em #000a;
   color: #fff;
-  min-width: 320px;
+  min-width: 20em;
   max-width: 90vw;
   text-align: center;
   font-family: monospace;
-  font-size: 25px;
-}
-#mipclogo
-{
-    height: 80px; margin-left: -200px; margin-top: 200px;
-}
-#mycomputertexto
-{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white; margin-left: -245px; margin-top: 5px;text-shadow: 2px 2px 5px #000000;
+  font-size: 1.56em;
 }
 
-#textodetablaprogramadefirmware
-{
-    background-color: blue; margin: 0; margin-top: -3px;margin-left: -3px; margin-right: -3px; text-align: center; color: whitesmoke; 
+#mipclogo {
+    height: 5em; 
+    margin-left: -12.5em; 
+    margin-top: 12.5em;
 }
 
-#tablaDeFirmwarePenetration{
+#mycomputertexto {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: white; 
+    margin-left: -15.3em; 
+    margin-top: 0.313em;
+    text-shadow: 0.125em 0.125em 0.313em #000000;
+}
+
+#textodetablaprogramadefirmware {
+    background-color: blue; 
+    margin: 0; 
+    margin-top: -0.1875em;
+    margin-left: -0.1875em; 
+    margin-right: -0.1875em; 
+    text-align: center; 
+    color: whitesmoke; 
+}
+
+#tablaDeFirmwarePenetration {
     border-color: blue; 
-    border-width: 2px; 
+    border-width: 0.125em; 
     border-style: solid;
-    margin-top: -40px;
+    margin-top: -2.5em;
     background-color: black;
-    width: 870px;
-}
-#laberinto{
-    text-align: center; font-size: 11px; color: rgb(19, 204, 19);
+    width: 54.4em;
 }
 
-#contenedorjuego{
-    display: flex; justify-content: center; align-items: flex-start; gap: 32px;
+#laberinto {
+    text-align: center; 
+    font-size: 0.688em; 
+    color: rgb(19, 204, 19);
 }
 
-#contador{
+#contenedorjuego {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 2em;
+}
+
+#contador {
   position: fixed;
-  top: 20px;
-  right: 40px;
+  top: 1.25em;
+  right: 2.5em;
   color: #ff0404;
-  font-size: 42px;
+  font-size: 2.625em;
   font-family: monospace;
   background: rgba(0,0,0,0.7);
-  padding: 8px 18px;
-  border-radius: 10px;
+  padding: 0.5em 1.125em;
+  border-radius: 0.625em;
   z-index: 1000;
 }
