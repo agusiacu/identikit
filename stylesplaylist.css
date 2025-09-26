@@ -48,4 +48,7 @@
             margin-top: 5em;
         }
 
-        
+        div span{
+            font-size: 1.2em;
+            color: white;
+        }
