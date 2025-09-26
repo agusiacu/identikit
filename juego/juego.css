@@ -1,3 +1,132 @@
+<<<<<<< HEAD
+#ascii-ghostface {
+    margin-right: 2em; 
+    color: white;
+}
+
+#bodyJuego {
+    background-color: black; 
+    margin: 0%;
+}
+
+#bodyprueba {
+    background-color: black; 
+    margin: 0%;
+    margin-top: -0.625em;
+    background-image: url(https://wallpaperswide.com/download/windows_xp_original-wallpaper-3554x1999.jpg);
+    background-size: cover; 
+}
+
+#tablaDeGif {
+    margin-left: 7.7em; 
+    border-color: white; 
+    border-width: 0.125em; 
+    border-style: solid;
+}
+
+.asciiart {
+    color: white;
+}
+
+.textocmd {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: white;
+}
+
+.mensajeemergente {
+    background-color: black; 
+    border-color: red; 
+    border-width: 0.125em; 
+    border-style: solid; 
+    display: inline-block;
+    width: 37.5em; 
+}
+
+.mensajeemergente2 {
+    background-color: black; 
+    border-color: rgb(0, 255, 38); 
+    border-width: 0.125em; 
+    border-style: solid; 
+    display: inline-block;
+    width: 18.8em; 
+}
+
+.hazsidodectectado {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #181818;
+  border: 0.1875em solid #ff2222;
+  padding: 2em 3em;
+  box-shadow: 0 0 1.5em #000a;
+  color: #fff;
+  min-width: 20em;
+  max-width: 90vw;
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.56em;
+}
+
+#mipclogo {
+    height: 5em; 
+    margin-left: -12.5em; 
+    margin-top: 12.5em;
+}
+
+#mycomputertexto {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: white; 
+    margin-left: -15.3em; 
+    margin-top: 0.313em;
+    text-shadow: 0.125em 0.125em 0.313em #000000;
+}
+
+#textodetablaprogramadefirmware {
+    background-color: blue; 
+    margin: 0; 
+    margin-top: -0.1875em;
+    margin-left: -0.1875em; 
+    margin-right: -0.1875em; 
+    text-align: center; 
+    color: whitesmoke; 
+}
+
+#tablaDeFirmwarePenetration {
+    border-color: blue; 
+    border-width: 0.125em; 
+    border-style: solid;
+    margin-top: -2.5em;
+    background-color: black;
+    width: 54.4em;
+}
+
+#laberinto {
+    text-align: center; 
+    font-size: 0.688em; 
+    color: rgb(19, 204, 19);
+}
+
+#contenedorjuego {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 2em;
+}
+
+#contador {
+  position: fixed;
+  top: 1.25em;
+  right: 2.5em;
+  color: #ff0404;
+  font-size: 2.625em;
+  font-family: monospace;
+  background: rgba(0,0,0,0.7);
+  padding: 0.5em 1.125em;
+  border-radius: 0.625em;
+  z-index: 1000;
+}
+=======
 #ascii-ghostface{
     margin-right: 32px; color: white;
 }
